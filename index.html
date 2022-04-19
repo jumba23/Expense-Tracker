@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SIMPLE EXPENSE TRACKER</h1>
+    </header>
+    <h3>ADD A NEW ITEM</h3>
+    <div id="inputForm">
+      <form autocomplete="off" id="form">
+        <div>
+          <label for="type">Type:</label>
+          <select name="type" id="location" required>
+            <option value="">Select One</option>
+            <option value="Credit">Credit</option>
+            <option value="Cash">Cash</option>
+            <option value="Debit">Debit</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="expenseDescription"
+            placeholder="Expense Name"
+            required
+          />
+        </div>
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="dateCharged" required />
+        </div>
+        <div>
+          <label for="amount">Amount:</label>
+          <input
+            type="number"
+            name="amount"
+            id="amountCharged"
+            placeholder="$$$"
+            min="0.01"
+            step="0.01"
+            required
+            valur
+          />
+        </div>
+        <div name="addExpensesButton">
+          <input id="submitButton" type="submit" value="ADD A NEW EXPENSE" />
+        </div>
+      </form>
+    </div>
+    <table id="tableExpenses">
+      <thead>
+        <tr>
+          <th id="type">Type</th>
+          <th id="name">Name</th>
+          <th id="date">Date</th>
+          <th id="amount">Amount</th>
+          <th id="deleteOption">Delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
