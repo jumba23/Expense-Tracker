@@ -20,4 +20,4 @@ This is my fourth application written using HTML,CSS, and JavaScript languages. 
         3. Expensees are saved on reload  
  
 # Author
-Goran Cvetic - Software Developer - [LinkedIn](https://www.linkedin.com/in/goran-cvetic-9aaa4288/)
+Goran Cvetic - Software Developer - [LinkedIn](https://www.linkedin.com/in/goran-cvetic/)
